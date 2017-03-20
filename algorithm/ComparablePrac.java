@@ -37,7 +37,6 @@ class Student implements Comparable<Student>{
 	public String toString(){
 		return "이름: " + name + " 나이: " + age + " 점수: " + score;
 	}
-	
 }
 
 //백준 알고리즘 2751 문제

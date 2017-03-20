@@ -22,7 +22,7 @@ public class QuickSort {
 	public static int partition(int arr[], int left, int right){
 	    int temp;
 	    int low = left+1;
-	    int high = right;
+	    int high = right;                    
 	    int pivot = arr[left]; //피봇을 배열의 맨 왼쪽 것으로 설정
 	    
 	    while(true){
